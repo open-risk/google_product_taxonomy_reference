@@ -1,5 +1,6 @@
-import pandas as pd
 import json
+
+import pandas as pd
 
 """
 Create hierarchical json object in the style of https://github.com/d3/d3-hierarchy/blob/main/README.md#hierarchy

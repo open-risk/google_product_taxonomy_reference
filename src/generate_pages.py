@@ -1,6 +1,7 @@
 from pathlib import Path
-from jinja2 import Template
+
 import pandas as pd
+from jinja2 import Template
 
 HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
