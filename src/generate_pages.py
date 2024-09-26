@@ -5,14 +5,14 @@ from jinja2 import Template
 
 HERE = Path(__file__).parent.resolve()
 DATA = HERE.parent.joinpath("data").resolve()
-DOCS = HERE.parent.joinpath("docs").resolve()
+DOCS = HERE.parent.joinpath("html").resolve()
 
 
 def main():
     content = """
-    <p>Unofficial reference for the Google Product Taxonomy.</p>
+    <p>Unofficial Reference for the Google Product Taxonomy.</p>
 
-    <p> Based on  Google_Product_Taxonomy_Version: 2021-09-21 <p>
+    <p>Based on  Google_Product_Taxonomy_Version: 2021-09-21 <p>
 
     """
     template = Template(DATA.joinpath("index.html.jinja").read_text())
